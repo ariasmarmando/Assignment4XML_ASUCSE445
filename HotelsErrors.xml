@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Root element name should be 'Hotels' but is 'Hotel' -->
+<!-- Root element name should be 'Hotels' but is incorrectly 'Hotel' -->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-	<Hotel NearestAirport="Sky Harbor" Rating="4.2">
+	<Hotel Rating="4.2">
 		<Name>Westin</Name>
 		<Phone>480-968-8885</Phone>
 		<Phone>800-937-8461</Phone>
-		<Address>
+		<Address NearestAirport="Sky Harbor">
 			<Number>11</Number>
 			<Street>E. 7th St</Street>
 			<City>Tempe</City>
@@ -15,12 +15,12 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
-	
+
 	<!-- valid -->
-	<Hotel NearestAirport="LaGuardia Airport" Rating="4.2">
+	<Hotel Rating="4.2">
 		<Name>Aloft New York LaGuardia Airport</Name>
 		<Phone>718-606-6032</Phone>
-		<Address>
+		<Address  NearestAirport="LaGuardia Airport">
 			<Number>100-15</Number>
 			<Street>Ditmars Blvd</Street>
 			<City>East Elmhurst</City>
@@ -43,10 +43,10 @@
 	</Hotel>
 
 	<!-- Missing one <Phone> element -->
-	<Hotel NearestAirport="Orlando International Airport" Rating="4.5">
+	<Hotel Rating="4.5">
 		<Name>Marriott Orlando Airport Lakeside</Name>
 		<!-- Missing one of the phone numbers -->
-		<Address>
+		<Address  NearestAirport="Orlando International Airport"> 
 			<Number>7499</Number>
 			<Street>Augusta National Dr</Street>
 			<City>Orlando</City>
@@ -56,10 +56,10 @@
 	</Hotel>
 
 	<!-- Address element has no closing tag -->
-	<Hotel NearestAirport="Newark Liberty International Airport">
+	<Hotel>
 		<Name>Newark Liberty International Airport Marriott</Name>
 		<Phone>973-623-0006</Phone>
-		<Address>
+		<Address NearestAirport="Newark Liberty International Airport">
 			<Number>1</Number>
 			<Street>Hotel Rd</Street>
 			<City>Newark</City>
@@ -69,12 +69,12 @@
 		</Hotel>
 
 	<!-- Two <Name> elements present -->
-	<Hotel NearestAirport="Chicago O’Hare International Airport" Rating="4.1">
+	<Hotel Rating="4.1">
 		<Name>Hyatt Regency O’Hare</Name>
 		<Name>Duplicate Name Entry</Name>
 		<Phone>847-696-1234</Phone>
 		<Phone>800-233-1234</Phone>
-		<Address>
+		<Address NearestAirport="Chicago O’Hare International Airport">
 			<Number>9300</Number>
 			<Street>Bryn Mawr Ave</Street>
 			<City>Rosemont</City>
@@ -84,10 +84,10 @@
 	</Hotel>
 
 	<!-- Remaining hotels copied as-is -->
-	<Hotel NearestAirport="Dallas/Fort Worth International Airport">
+	<Hotel>
 		<Name>Gaylord Texan Resort &amp; Convention Center</Name>
 		<Phone>817-778-1000</Phone>
-		<Address>
+		<Address  NearestAirport="Dallas/Fort Worth International Airport">
 			<Number>1501</Number>
 			<Street>Gaylord Trail</Street>
 			<City>Grapevine</City>
@@ -96,10 +96,10 @@
 		</Address>
 	</Hotel>
 
-	<Hotel NearestAirport="Ontario International Airport" Rating="4.3">
+	<Hotel  Rating="4.3">
 		<Name>Azure Hotel &amp; Suites Ontario Airport</Name>
 		<Phone>909-390-7778</Phone>
-		<Address>
+		<Address NearestAirport="Ontario International Airport">
 			<Number>1945</Number>
 			<Street>E Holt Blvd</Street>
 			<City>Ontario</City>
@@ -108,10 +108,10 @@
 		</Address>
 	</Hotel>
 
-	<Hotel NearestAirport="Portland International Airport" Rating="4.0">
+	<Hotel Rating="4.0">
 		<Name>Embassy Suites by Hilton Portland Airport</Name>
 		<Phone>503-460-3000</Phone>
-		<Address>
+		<Address NearestAirport="Portland International Airport">
 			<Number>7900</Number>
 			<Street>NE 82nd Ave</Street>
 			<City>Portland</City>
@@ -120,11 +120,11 @@
 		</Address>
 	</Hotel>
 
-	<Hotel NearestAirport="Miami International Airport" Rating="4.0">
+	<Hotel Rating="4.0">
 		<Name>Pullman Miami Airport Hotel</Name>
 		<Phone>305-264-4888</Phone>
 		<Phone>800-221-4542</Phone>
-		<Address>
+		<Address NearestAirport="Miami International Airport">
 			<Number>5800</Number>
 			<Street>Blue Lagoon Dr</Street>
 			<City>Miami</City>
@@ -133,10 +133,10 @@
 		</Address>
 	</Hotel>
 
-	<Hotel NearestAirport="San Francisco International Airport" Rating="4.3">
+	<Hotel Rating="4.3">
 		<Name>Grand Hyatt at SFO</Name>
 		<Phone>650-452-1234</Phone>
-		<Address>
+		<Address NearestAirport="San Francisco International Airport">
 			<Number>55</Number>
 			<Street>S McDonnell Rd</Street>
 			<City>San Francisco</City>
@@ -145,10 +145,10 @@
 		</Address>
 	</Hotel>
 
-	<Hotel NearestAirport="Denver International Airport">
+	<Hotel>
 		<Name>Westin Denver International Airport</Name>
 		<Phone>303-317-1800</Phone>
-		<Address>
+		<Address NearestAirport="Denver International Airport">
 			<Number>8300</Number>
 			<Street>Pena Blvd</Street>
 			<City>Denver</City>
