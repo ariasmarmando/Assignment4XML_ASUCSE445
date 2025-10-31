@@ -1,7 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified">
 
+	<!-- Root element -->
 	<xs:element name="Hotels">
 		<xs:complexType>
 			<xs:sequence>
@@ -10,8 +11,7 @@
 						<xs:sequence>
 							<xs:element name="Name" type="xs:string"/>
 
-							<xs:element name="Phone" type="xs:string"
-                                        maxOccurs="unbounded"/>
+							<xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
 
 							<xs:element name="Address">
 								<xs:complexType>
@@ -22,10 +22,12 @@
 										<xs:element name="State" type="xs:string"/>
 										<xs:element name="Zip" type="xs:string"/>
 									</xs:sequence>
+									<!-- Required attribute -->
+									<xs:attribute name="NearestAirport" type="xs:string" use="required"/>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
-						<xs:attribute name="NearestAirport" type="xs:string" use="required"/>
+						<!-- Optional attribute of Hotel -->
 						<xs:attribute name="Rating" type="xs:decimal" use="optional"/>
 					</xs:complexType>
 				</xs:element>
@@ -34,3 +36,4 @@
 	</xs:element>
 
 </xs:schema>
+
