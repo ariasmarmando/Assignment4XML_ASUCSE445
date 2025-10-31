@@ -42,10 +42,10 @@
 		</Address>
 	</Hotel>
 
-	<!-- Missing one <Phone> element -->
+	<!-- Missing  <Phone> element -->
 	<Hotel Rating="4.5">
 		<Name>Marriott Orlando Airport Lakeside</Name>
-		<!-- Missing one of the phone numbers -->
+		<!-- Missing phone number-->
 		<Address  NearestAirport="Orlando International Airport">
 			<Number>7499</Number>
 			<Street>Augusta National Dr</Street>
@@ -83,7 +83,7 @@
 		</Address>
 	</Hotel>
 
-	<!-- Remaining hotels copied as-is -->
+	<!-- Remaining hotels are valid-->
 	<Hotel>
 		<Name>Gaylord Texan Resort &amp; Convention Center</Name>
 		<Phone>817-778-1000</Phone>
@@ -158,3 +158,4 @@
 	</Hotel>
 
 </Hotel>
+
