@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+	<Hotel NearestAirport="LaGuardia Airport" Rating="4.2">
+		<Name>Aloft New York LaGuardia Airport</Name>
+		<Phone>718-606-6032</Phone>
+		<Address>
+			<Number>100-15</Number>
+			<Street>Ditmars Blvd</Street>
+			<City>East Elmhurst</City>
+			<State>NY</State>
+			<Zip>11369</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Boston Logan International Airport" Rating="4.4">
+		<Name>Hilton Boston Logan Airport</Name>
+		<Phone>617-568-6700</Phone>
+		<Address>
+			<Number>1</Number>
+			<Street>Hotel Dr</Street>
+			<City>Boston</City>
+			<State>MA</State>
+			<Zip>02128</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Orlando International Airport" Rating="4.5">
+		<Name>Marriott Orlando Airport Lakeside</Name>
+		<Phone>407-851-9000</Phone>
+		<Phone>800-380-6751</Phone>
+		<Address>
+			<Number>7499</Number>
+			<Street>Augusta National Dr</Street>
+			<City>Orlando</City>
+			<State>FL</State>
+			<Zip>32822</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Newark Liberty International Airport">
+		<Name>Newark Liberty International Airport Marriott</Name>
+		<Phone>973-623-0006</Phone>
+		<Address>
+			<Number>1</Number>
+			<Street>Hotel Rd</Street>
+			<City>Newark</City>
+			<State>NJ</State>
+			<Zip>07114</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Chicago O’Hare International Airport" Rating="4.1">
+		<Name>Hyatt Regency O’Hare</Name>
+		<Phone>847-696-1234</Phone>
+		<Phone>800-233-1234</Phone>
+		<Address>
+			<Number>9300</Number>
+			<Street>Bryn Mawr Ave</Street>
+			<City>Rosemont</City>
+			<State>IL</State>
+			<Zip>60018</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Dallas/Fort Worth International Airport">
+		<Name>Gaylord Texan Resort &amp; Convention Center</Name>
+		<Phone>817-778-1000</Phone>
+		<Address>
+			<Number>1501</Number>
+			<Street>Gaylord Trail</Street>
+			<City>Grapevine</City>
+			<State>TX</State>
+			<Zip>76051</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Ontario International Airport" Rating="4.3">
+		<Name>Azure Hotel &amp; Suites Ontario Airport</Name>
+		<Phone>909-390-7778</Phone>
+		<Address>
+			<Number>1945</Number>
+			<Street>E Holt Blvd</Street>
+			<City>Ontario</City>
+			<State>CA</State>
+			<Zip>91761</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Portland International Airport" Rating="4.0">
+		<Name>Embassy Suites by Hilton Portland Airport</Name>
+		<Phone>503-460-3000</Phone>
+		<Address>
+			<Number>7900</Number>
+			<Street>NE 82nd Ave</Street>
+			<City>Portland</City>
+			<State>OR</State>
+			<Zip>97220</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Miami International Airport" Rating="4.0">
+		<Name>Pullman Miami Airport Hotel</Name>
+		<Phone>305-264-4888</Phone>
+		<Phone>800-221-4542</Phone>
+		<Address>
+			<Number>5800</Number>
+			<Street>Blue Lagoon Dr</Street>
+			<City>Miami</City>
+			<State>FL</State>
+			<Zip>33126</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="San Francisco International Airport" Rating="4.3">
+		<Name>Grand Hyatt at SFO</Name>
+		<Phone>650-452-1234</Phone>
+		<Address>
+			<Number>55</Number>
+			<Street>S McDonnell Rd</Street>
+			<City>San Francisco</City>
+			<State>CA</State>
+			<Zip>94128</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Denver International Airport">
+		<Name>Westin Denver International Airport</Name>
+		<Phone>303-317-1800</Phone>
+		<Address>
+			<Number>8300</Number>
+			<Street>Pena Blvd</Street>
+			<City>Denver</City>
+			<State>CO</State>
+			<Zip>80249</Zip>
+		</Address>
+	</Hotel>
+
+</Hotels>
