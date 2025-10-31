@@ -65,10 +65,10 @@
 	</Hotel>
 
 	<Hotel Rating="4.1">
-		<Name>Hyatt Regency O’Hare</Name>
+		<Name>Hyatt Regency O'Hare</Name>
 		<Phone>847-696-1234</Phone>
 		<Phone>800-233-1234</Phone>
-		<Address NearestAirport="Chicago O’Hare International Airport">
+		<Address NearestAirport="Chicago O'Hare International Airport">
 			<Number>9300</Number>
 			<Street>Bryn Mawr Ave</Street>
 			<City>Rosemont</City>
@@ -151,3 +151,4 @@
 	</Hotel>
 
 </Hotels>
+
