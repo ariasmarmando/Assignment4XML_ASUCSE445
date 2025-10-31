@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
-	
-<!--Example hotel given-->
+
+	<!--Example hotel given-->
 	<Hotel Rating="4.2">
 		<Name>Westin</Name>
 		<Phone>480-968-8885</Phone>
@@ -17,7 +17,7 @@
 	</Hotel>
 
 	<!--Real hotel entries with their respective nearby airports-->
-	<Hotel Rating="4.2">
+	<Hotel>
 		<Name>Aloft New York LaGuardia Airport</Name>
 		<Phone>718-606-6032</Phone>
 		<Address NearestAirport="LaGuardia Airport">
@@ -115,7 +115,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.0">
+	<Hotel>
 		<Name>Pullman Miami Airport Hotel</Name>
 		<Phone>305-264-4888</Phone>
 		<Phone>800-221-4542</Phone>
@@ -153,4 +153,3 @@
 	</Hotel>
 
 </Hotels>
-
